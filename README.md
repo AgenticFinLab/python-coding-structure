@@ -22,3 +22,20 @@ If the program encounters bugs during installing site-packages, please try updat
  pip install -- upgrade setuptools
 ```
 
+
+
+### Structure
+
+```text
+.
+├── README.md               # Overview and structure of the project.
+├── documents/
+│   ├── files               # Various documentations related to the research.
+│   ├── Progress-record.md  # Record of progress and findings.
+├── examples/               # Exact demos and methods implemented based on the code from `cdemo/`.
+├── cdemo/
+│   ├── ???
+└── requirements.txt        # List of dependencies required to run the project.
+```
+
+
