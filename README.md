@@ -23,7 +23,6 @@ If the program encounters bugs during installing site-packages, please try updat
 ```
 
 
-
 ### Structure
 
 ```text
@@ -37,5 +36,10 @@ If the program encounters bugs during installing site-packages, please try updat
 │   ├── ???
 └── requirements.txt        # List of dependencies required to run the project.
 ```
+
+
+### Additional Packages
+
+One may need to use additional packages to control the configuration and logging of the project. Please refer to the [project-init](https://github.com/AgenticFinLab/project-init) for details.
 
 
