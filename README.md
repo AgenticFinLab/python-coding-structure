@@ -1,4 +1,4 @@
-# python-coding-structure
+### Mandatory Reading -- Must read
 
 
 This repo provides a template for Python projects, including a setup script, configuration files, and a basic directory structure. It is designed to help developers quickly set up a new Python project with best practices in mind. With this template, your project named `cdemo` will be used as an internal package in python coding. By doing so, any module you created under the `cdemo/` can be imported directly after a `pip install -e .` command.
@@ -36,6 +36,13 @@ If the program encounters bugs during installing site-packages, please try updat
 │   ├── ???
 └── requirements.txt        # List of dependencies required to run the project.
 ```
+
+Please note that the `cdemo/` directory serves as an internal Python package. Once you run `pip install -e .`, any module within `cdemo/` can be imported directly in your code. As such, ensure that the code placed in `cdemo/` is well-structured and functions as the foundational codebase for all method implementations located in the `examples/` directory.
+
+
+### Coding Format Template
+
+Strictly follow the [Google's Python Coding Style](https://google.github.io/styleguide/pyguide.html) to organize the coding. If you do not read such a detailed guidance, please directly follow the [coding template](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
 
 
 ### Additional Packages
