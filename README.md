@@ -8,7 +8,8 @@ After creating a new Python project using this template, you still need to make 
 
 1. Change the `cdemo` directory name to your project name.
 2. Update the `description.txt` to describe your project.
-3. Change the `setup.py` file by updating the version in `get_version` function and `name`, `description`, `url`, `keywords` fields of the `setuptools.setup`, where the `url` is the link address of the current repo.<img width="769" height="822" alt="setup" src="https://github.com/user-attachments/assets/71cc7179-9f79-4021-94e7-bc2ebe8ef319" />
+3. Change the `setup.py` file by updating the version in `get_version` function and `name`, `description`, `url`, `keywords` fields of the `setuptools.setup`, where the `url` is the link address of the current repo.<img width="769" height="822" alt="c9134dd2ee5bb07ce9c146214ff9a477" src="https://github.com/user-attachments/assets/187bbd46-52e0-40d4-81bb-5569fd9bcbf7" />
+
 4. Update the `README.md` file to provide a description of your project.   
 5. Remove the `examples/Test/test.py` file if you don't need it. Then, create your own method based on your code under `cdemo/` directory.
 
