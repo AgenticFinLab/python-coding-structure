@@ -28,9 +28,11 @@ If the program encounters bugs during installing site-packages, please try updat
 ```text
 .
 ├── README.md               # Overview and structure of the project.
-├── documents/
+├── docs/
 │   ├── files               # Various documentations related to the research.
 │   ├── Progress-record.md  # Record of progress and findings.
+│   ├── reference.md        # Record of all papers used in the project.
+├── configs/                # Configuration files for the project.
 ├── examples/               # Exact demos and methods implemented based on the code from `cdemo/`.
 ├── cdemo/
 │   ├── ???
