@@ -61,7 +61,7 @@ python examples/Test/test.py -c configs/Test/test.yml -b FirstTest -p MyTest
 
 
 ### Github desktop
-For effective team collaboration and the maintenance of a clear commit history, the use of GitHub Desktop is mandated for project management. Adherence to the standardized commit practices outlined in the following guide is required: https://github.com/AgenticFinLab/group-resource/blob/main/materials/github-desktop.md
+For effective team collaboration and the maintenance of a clear commit history, the use of GitHub Desktop is mandated for project management. Adherence to the standardized commit practices outlined in the following guide is required: [Research Preparation](https://github.com/AgenticFinLab/group-resource/blob/main/materials/research-preparation.md).
 
 Core Requirements:
 
