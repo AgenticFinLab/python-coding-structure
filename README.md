@@ -27,17 +27,18 @@ If the program encounters bugs during installing site-packages, please try updat
 
 ```text
 .
-├── README.md               # Overview and structure of the project.
+├── README.md               # Overview of the project.
 ├── docs/
-│   ├── files               # Various documentations related to the research.
+│   ├── files               # Various documentations.
 │   ├── Progress-record.md  # Record of progress and findings.
-│   ├── reference.md        # Record of all papers used in the project.
-├── configs/                # Configuration files for the project.
-├── examples/               # Exact demos and methods implemented based on the code from `cdemo/`.
-├── cdemo/
+│   ├── reference.md        # Reference record.
+├── configs/                # Configuration files.
+├── examples/               # Implemented demos and methods based on `finmy/`.
+├── cdemo/                  # Codebase of the project.
 │   ├── ???
-└── requirements.txt        # List of dependencies required to run the project.
+└── requirements.txt        # List of required dependencies.
 ```
+
 
 Please note that the `cdemo/` directory serves as an internal Python package. Once you run `pip install -e .`, any module within `cdemo/` can be imported directly in your code. As such, ensure that the code placed in `cdemo/` is well-structured and functions as the foundational codebase for all method implementations located in the `examples/` directory.
 
