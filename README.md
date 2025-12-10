@@ -48,19 +48,6 @@ Please note that the `cdemo/` directory serves as an internal Python package. On
 Strictly follow the [Google's Python Coding Style](https://google.github.io/styleguide/pyguide.html) to organize the coding. If you do not read such a detailed guidance, please directly follow the [coding template](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
 
 
-### Additional Packages
-
-One may need to use additional packages to control the configuration and logging of the project. Please refer to the [project-init](https://github.com/AgenticFinLab/project-init) for details.
-
-
-After installing this package, please run the following command to test.
-
-```console
-
-python examples/Test/test.py -c configs/Test/test.yml -b FirstTest -p MyTest
-```
-
-
 ### Github desktop
 For effective team collaboration and the maintenance of a clear commit history, the use of GitHub Desktop is mandated for project management. Adherence to the standardized commit practices outlined in the following guide is required: [Research Preparation](https://github.com/AgenticFinLab/group-resource/blob/main/materials/research-preparation.md).
 
