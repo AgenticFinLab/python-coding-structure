@@ -1,5 +1,11 @@
 ## Mandatory Reading -- Must read
 
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b)](https://arxiv.org/abs/REPLACE_WITH_PAPER_ID)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://AgenticFinLab.github.io/REPLACE_WITH_PROJECT_NAME/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Models_and_Datasets-yellow)](https://huggingface.co/collections/AgenticFinLab/REPLACE_WITH_PROJECT_COLLECTION)
+[![SwanLab](https://raw.githubusercontent.com/SwanHubX/assets/main/badge2.svg)](https://swanlab.cn/@AfinLab/REPLACE_WITH_PROJECT_NAME)
+
+> **Required before public release:** Replace all four links above with project-specific public URLs. Keep the placeholders while the repository is private, but do not make the repository public with placeholder links.
 
 This repo provides a template for Python projects, including a setup script, configuration files, and a basic directory structure. It is designed to help developers quickly set up a new Python project with best practices in mind. With this template, your project named `cdemo` will be used as an internal package in python coding. By doing so, any module you created under the `cdemo/` can be imported directly after a `pip install -e .` command.
 
@@ -9,8 +15,9 @@ After creating a new Python project using this template, you still need to make 
 2. Proceed to the `description.txt` file and update its contents to provide a concise and accurate summary of the project. This description serves as a formal overview, and precision is paramount.
 3. Change the `setup.py` file by updating the version in `get_version` function and `name`, `description`, `url`, `keywords` fields of the `setuptools.setup`, where the `url` is the link address of the current repo.<img width="769" height="822" alt="c9134dd2ee5bb07ce9c146214ff9a477" src="https://github.com/user-attachments/assets/187bbd46-52e0-40d4-81bb-5569fd9bcbf7" />
 
-4. Update the `README.md` file to provide a description of your project.   
-5. Remove the `examples/Test/test.py` file if you don't need it. Then, create your own method based on your code under `cdemo/` directory.
+4. Update the `README.md` file to describe your project. Before making the repository public, replace the Paper, Project Page, Hugging Face, and SwanLab placeholders with project-specific public links.
+5. Maintain project-specific Hugging Face and SwanLab resources so that datasets, models, checkpoints, and experiment runs remain publicly traceable when the repository is released.
+6. Remove the `examples/Test/test.py` file if you don't need it. Then, create your own method based on your code under `cdemo/` directory.
 
 Note that the `examples/` is a folder to allow you to place any method implemented based on the `cdemo`.
 
